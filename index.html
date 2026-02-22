@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDURISE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper" id="index" >
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="navbar-flex container">
+                <div class="logo">
+                    <svg width="305" height="48" viewBox="0 0 305 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M39.296 35.776C39.68 35.904 39.872 36.16 39.872 36.544C39.872 36.672 39.7653 37.0133 39.552 37.568C38.4 40.4693 37.2053 43.648 35.968 47.104H0.447996C0.149329 47.104 -4.05312e-06 46.8053 -4.05312e-06 46.208C-4.05312e-06 45.6107 0.149329 45.312 0.447996 45.312H1.472C3.392 45.312 4.77866 45.0133 5.632 44.416C6.528 43.776 6.976 42.7307 6.976 41.28V6.464C6.976 4.97067 6.50666 3.92534 5.568 3.328C4.672 2.73067 3.30666 2.432 1.472 2.432H0.447996C0.149329 2.432 -4.05312e-06 2.13334 -4.05312e-06 1.536C-4.05312e-06 0.93867 0.149329 0.640003 0.447996 0.640003H33.984C34.7093 1.92 35.456 3.264 36.224 4.672C37.0347 6.08 37.6107 7.14667 37.952 7.872C37.9947 7.95734 38.016 8.064 38.016 8.192C38.016 8.40533 37.8453 8.61867 37.504 8.832C37.376 8.91734 37.2053 8.96 36.992 8.96C36.736 8.96 36.5227 8.87467 36.352 8.704C34.4747 6.82667 32.192 5.33333 29.504 4.224C26.816 3.072 23.9147 2.496 20.8 2.496H19.2C17.4507 2.496 16.1067 2.58134 15.168 2.752C14.2293 2.88 13.4827 3.22133 12.928 3.776C12.3733 4.33067 12.096 5.22667 12.096 6.464V21.952H17.856C20.4587 21.952 22.1653 21.9307 22.976 21.888C24.768 21.8453 26.1547 21.248 27.136 20.096C28.16 18.944 28.672 17.4933 28.672 15.744C28.672 15.4453 28.9493 15.296 29.504 15.296C29.8027 15.296 30.016 15.3387 30.144 15.424C30.3147 15.4667 30.4 15.5733 30.4 15.744V30.4C30.4 30.7413 30.1013 30.912 29.504 30.912C28.9493 30.912 28.672 30.7413 28.672 30.4C28.672 28.6507 28.16 27.2 27.136 26.048C26.1547 24.896 24.768 24.2987 22.976 24.256C22.1653 24.2133 20.4587 24.192 17.856 24.192H12.096V41.28C12.096 42.7307 12.544 43.7333 13.44 44.288C14.336 44.8427 15.7227 45.1627 17.6 45.248C18.1547 45.2907 19.1147 45.312 20.48 45.312C21.504 45.312 22.2507 45.2907 22.72 45.248C25.3653 45.0347 27.6267 44.48 29.504 43.584C31.3813 42.688 32.9173 41.664 34.112 40.512C35.3493 39.3173 36.7147 37.7813 38.208 35.904C38.336 35.7333 38.5067 35.648 38.72 35.648C38.848 35.648 39.04 35.6907 39.296 35.776ZM46.6385 47.104C46.2972 47.104 46.1265 46.8053 46.1265 46.208C46.1265 45.6107 46.2972 45.312 46.6385 45.312H47.6625C49.5825 45.312 50.9692 45.0347 51.8225 44.48C52.6758 43.8827 53.1025 42.8373 53.1025 41.344V6.464C53.1025 4.928 52.6758 3.88267 51.8225 3.328C50.9692 2.73067 49.5825 2.432 47.6625 2.432H46.6385C46.3398 2.432 46.1905 2.13334 46.1905 1.536C46.1905 0.93867 46.3398 0.640003 46.6385 0.640003L53.8065 0.576C58.4145 0.576 62.2972 0.640001 65.4545 0.768002C69.5078 0.938669 73.2625 1.81334 76.7185 3.392C80.2172 4.97067 83.0545 7.46667 85.2305 10.88C87.4492 14.2507 88.5585 18.5813 88.5585 23.872C88.5585 29.12 87.4492 33.4507 85.2305 36.864C83.0545 40.2347 80.2172 42.7307 76.7185 44.352C73.2625 45.9307 69.5078 46.8053 65.4545 46.976C62.6385 47.104 59.1185 47.168 54.8945 47.168L46.6385 47.104ZM64.2385 45.184C66.7132 45.184 69.3372 44.5867 72.1105 43.392C74.9265 42.1973 77.3798 40.0213 79.4705 36.864C81.6038 33.664 82.6705 29.3333 82.6705 23.872C82.6705 18.368 81.6038 14.0373 79.4705 10.88C77.3798 7.68 74.9265 5.504 72.1105 4.352C69.3372 3.15733 66.7132 2.56 64.2385 2.56H63.7265C61.7638 2.56 60.3558 2.85867 59.5025 3.456C58.6918 4.05333 58.2865 5.09867 58.2865 6.592V41.216C58.2865 42.6667 58.6918 43.6907 59.5025 44.288C60.3558 44.8853 61.7638 45.184 63.7265 45.184H64.2385ZM119.549 48C114.088 48 109.885 46.656 106.941 43.968C103.997 41.2373 102.525 37.6107 102.525 33.088V6.4C102.525 4.90667 102.077 3.88267 101.181 3.328C100.328 2.73067 98.941 2.432 97.021 2.432H96.061C95.7623 2.432 95.613 2.13334 95.613 1.536C95.613 0.93867 95.7623 0.640003 96.061 0.640003H114.109C114.322 0.640003 114.45 0.725335 114.493 0.896C114.578 1.024 114.621 1.23734 114.621 1.536C114.621 2.13334 114.45 2.432 114.109 2.432H113.149C111.229 2.432 109.821 2.73067 108.925 3.328C108.029 3.88267 107.581 4.90667 107.581 6.4C107.581 14.464 107.581 19.968 107.581 22.912C107.624 25.856 107.645 27.7547 107.645 28.608V30.272C107.645 34.496 108.456 38.1013 110.077 41.088C111.698 44.0747 114.856 45.568 119.549 45.568C124.626 45.568 128.061 44.16 129.853 41.344C131.688 38.528 132.605 34.8373 132.605 30.272V7.552C132.605 6.10134 132.008 4.88534 130.813 3.904C129.618 2.92267 128.381 2.432 127.101 2.432H126.141C125.842 2.432 125.693 2.13334 125.693 1.536C125.693 0.93867 125.842 0.640003 126.141 0.640003H141.693C141.906 0.640003 142.034 0.725335 142.077 0.896C142.162 1.024 142.205 1.23734 142.205 1.536C142.205 2.13334 142.034 2.432 141.693 2.432H140.733C139.453 2.432 138.216 2.92267 137.021 3.904C135.826 4.88534 135.229 6.10134 135.229 7.552L135.101 32.128C135.101 36.992 133.757 40.8533 131.069 43.712C128.381 46.5707 124.541 48 119.549 48ZM191.704 45.312C192.003 45.312 192.152 45.5893 192.152 46.144C192.152 46.784 192.003 47.104 191.704 47.104H180.632C178.926 44.032 176.707 40.1707 173.976 35.52C171.246 30.8267 169.006 27.2213 167.256 24.704C166.062 24.7893 165.166 24.832 164.568 24.832H160.408V41.28C160.408 42.7733 160.856 43.8187 161.752 44.416C162.691 45.0133 164.078 45.312 165.912 45.312H166.936C167.235 45.312 167.384 45.5893 167.384 46.144C167.384 46.784 167.235 47.104 166.936 47.104H148.76C148.462 47.104 148.312 46.8053 148.312 46.208C148.312 45.6107 148.462 45.312 148.76 45.312H149.784C151.704 45.312 153.091 45.0133 153.944 44.416C154.84 43.8187 155.288 42.7733 155.288 41.28V6.464C155.288 4.97067 154.819 3.92534 153.88 3.328C152.942 2.73067 151.555 2.432 149.72 2.432H148.696C148.398 2.432 148.248 2.13334 148.248 1.536C148.248 0.93867 148.398 0.640003 148.696 0.640003L163.416 0.576H169.24C171.971 0.618669 174.488 1.13067 176.792 2.112C179.139 3.05067 181.016 4.43733 182.424 6.272C183.832 8.064 184.536 10.1547 184.536 12.544C184.536 15.4027 183.427 17.7707 181.208 19.648C179.032 21.4827 176.195 22.8693 172.696 23.808C173.891 25.3867 176.174 28.9067 179.544 34.368C182.318 38.7627 183.918 41.28 184.344 41.92C185.07 42.944 185.987 43.776 187.096 44.416C188.248 45.0133 189.784 45.312 191.704 45.312ZM162.328 23.04C168.43 23.04 172.675 22.016 175.064 19.968C177.454 17.92 178.648 15.3387 178.648 12.224C178.648 8.72534 177.39 6.22933 174.872 4.736C172.398 3.24267 169.368 2.496 165.784 2.496C164.163 2.496 162.862 2.752 161.88 3.264C160.899 3.73333 160.408 4.8 160.408 6.464V23.04H162.328ZM197.26 47.104C196.962 47.104 196.812 46.8053 196.812 46.208C196.812 45.6107 196.962 45.312 197.26 45.312H198.284C200.204 45.312 201.591 45.0133 202.444 44.416C203.34 43.776 203.788 42.752 203.788 41.344V6.464C203.788 4.97067 203.34 3.92534 202.444 3.328C201.548 2.73067 200.162 2.432 198.284 2.432H197.26C196.962 2.432 196.812 2.13334 196.812 1.536C196.812 0.93867 196.962 0.640003 197.26 0.640003H215.372C215.586 0.640003 215.714 0.725335 215.756 0.896C215.842 1.024 215.884 1.23734 215.884 1.536C215.884 2.13334 215.714 2.432 215.372 2.432H214.412C212.407 2.432 210.978 2.73067 210.124 3.328C209.314 3.92534 208.908 4.97067 208.908 6.464V41.344C208.908 42.8373 209.335 43.8827 210.188 44.48C211.042 45.0347 212.45 45.312 214.412 45.312H215.372C215.586 45.312 215.714 45.3973 215.756 45.568C215.842 45.696 215.884 45.9093 215.884 46.208C215.884 46.8053 215.714 47.104 215.372 47.104H197.26ZM242.137 47.936C240.559 47.936 238.724 47.7227 236.633 47.296C234.585 46.912 232.772 46.4213 231.193 45.824C230.681 45.6533 230.148 45.568 229.593 45.568C228.996 45.568 228.399 45.7387 227.801 46.08C227.247 46.3787 226.521 46.9333 225.625 47.744L222.681 35.264L222.617 34.88C222.617 34.6667 222.831 34.4747 223.257 34.304L223.641 34.24C223.94 34.24 224.175 34.4107 224.345 34.752C228.399 42.048 234.116 45.696 241.497 45.696C244.313 45.696 246.916 45.0133 249.305 43.648C251.737 42.24 252.953 39.8507 252.953 36.48C252.953 34.944 252.527 33.4933 251.673 32.128C250.82 30.72 249.583 29.5893 247.961 28.736C246.639 28.0533 245.359 27.4987 244.121 27.072C242.884 26.6453 241.369 26.1547 239.577 25.6C236.932 24.832 235.055 24.192 233.945 23.68C230.66 22.144 228.399 20.4373 227.161 18.56C225.967 16.6827 225.369 14.6133 225.369 12.352C225.369 10.7307 225.753 8.98134 226.521 7.104C227.289 5.22667 228.655 3.584 230.617 2.176C232.623 0.768003 235.311 0.064003 238.681 0.064003C240.004 0.064003 241.327 0.213336 242.649 0.512001C243.972 0.768 245.423 1.17333 247.001 1.728C247.727 1.94133 248.303 2.048 248.729 2.048C249.967 2.048 251.14 1.36533 252.249 0L255.449 10.88L255.513 11.328C255.513 11.584 255.343 11.776 255.001 11.904C254.745 11.9893 254.553 12.032 254.425 12.032C254.169 12.032 253.956 11.904 253.785 11.648C253.273 10.7947 252.356 9.64267 251.033 8.192C249.711 6.74134 247.94 5.376 245.721 4.096C243.503 2.816 241.028 2.176 238.297 2.176C235.652 2.176 233.647 2.79467 232.281 4.032C230.916 5.22667 230.041 6.464 229.657 7.744C229.273 8.98134 229.081 9.92 229.081 10.56C229.081 13.5893 230.895 16.0213 234.521 17.856C236.143 18.624 238.532 19.4773 241.689 20.416C243.567 20.9707 245.167 21.4827 246.489 21.952C247.855 22.4213 249.177 22.976 250.457 23.616C255.407 26.176 257.881 30.144 257.881 35.52C257.881 37.8667 257.241 39.9787 255.961 41.856C254.724 43.7333 252.911 45.2267 250.521 46.336C248.132 47.4027 245.337 47.936 242.137 47.936ZM303.921 35.776C304.305 35.904 304.497 36.16 304.497 36.544C304.497 36.672 304.39 37.0133 304.177 37.568C303.025 40.4693 301.83 43.648 300.593 47.104H265.073C264.774 47.104 264.625 46.8053 264.625 46.208C264.625 45.6107 264.774 45.312 265.073 45.312H266.097C268.017 45.312 269.404 45.0133 270.257 44.416C271.153 43.776 271.601 42.7307 271.601 41.28V6.464C271.601 4.97067 271.132 3.92534 270.193 3.328C269.297 2.73067 267.932 2.432 266.097 2.432H265.073C264.774 2.432 264.625 2.13334 264.625 1.536C264.625 0.93867 264.774 0.640003 265.073 0.640003H298.609C299.334 1.92 300.081 3.264 300.849 4.672C301.66 6.08 302.236 7.14667 302.577 7.872C302.62 7.95734 302.641 8.064 302.641 8.192C302.641 8.40533 302.47 8.61867 302.129 8.832C302.001 8.91734 301.83 8.96 301.617 8.96C301.361 8.96 301.148 8.87467 300.977 8.704C299.1 6.82667 296.817 5.33333 294.129 4.224C291.441 3.072 288.54 2.496 285.425 2.496H283.825C282.076 2.496 280.732 2.58134 279.793 2.752C278.854 2.88 278.108 3.22133 277.553 3.776C276.998 4.33067 276.721 5.22667 276.721 6.464V21.952H282.481C285.084 21.952 286.79 21.9307 287.601 21.888C289.393 21.8453 290.78 21.248 291.761 20.096C292.785 18.944 293.297 17.4933 293.297 15.744C293.297 15.4453 293.574 15.296 294.129 15.296C294.428 15.296 294.641 15.3387 294.769 15.424C294.94 15.4667 295.025 15.5733 295.025 15.744V30.4C295.025 30.7413 294.726 30.912 294.129 30.912C293.574 30.912 293.297 30.7413 293.297 30.4C293.297 28.6507 292.785 27.2 291.761 26.048C290.78 24.896 289.393 24.2987 287.601 24.256C286.79 24.2133 285.084 24.192 282.481 24.192H276.721V41.28C276.721 42.7307 277.169 43.7333 278.065 44.288C278.961 44.8427 280.348 45.1627 282.225 45.248C282.78 45.2907 283.74 45.312 285.105 45.312C286.129 45.312 286.876 45.2907 287.345 45.248C289.99 45.0347 292.252 44.48 294.129 43.584C296.006 42.688 297.542 41.664 298.737 40.512C299.974 39.3173 301.34 37.7813 302.833 35.904C302.961 35.7333 303.132 35.648 303.345 35.648C303.473 35.648 303.665 35.6907 303.921 35.776Z" fill="#F5F5F5"/>
+                    </svg>
+                </div>
+                <div class="mainmenu-desktop">
+                    <ul class="main_menu_list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="mainmenu-mobile">
+                    <div class="mobile-menu-btn">
+                        <label for="hamburger"><i class="fas fa-bars fa-2x"></i></label>
+                        <input type="checkbox" id="hamburger">
+                    </div>
+                    <div class="mobile-menu-items">
+                        <ul class="main_menu_list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </nav>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="container hero-flex">
+                <div class="hero-content">
+                    <h1>Master the Skills of Tomorrow, Today.</h1>
+                    <p>
+                        Join a community of over 50,000 learners mastering in-demand technical skills through interactive, project-based courses.
+                    </p>
+                    <a href="#" class="btn-primary">$29 Get Course</a>
+                </div>
+                <div class="hero-image mask">
+                    
+                </div>
+            </div>
+            <svg
+            class="frame-decoration"
+            data-name="Layer 2"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            viewBox="0 0 1920 192.275"
+        >
+            <defs>
+            <style>
+                .cls-1 {
+                fill: #ffffff;
+                }
+            </style>
+            </defs>
+            <title>frame-decoration</title>
+            <path
+            class="cls-1"
+            d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+            transform="translate(0 -158.755)"
+            />
+        </svg>
+        </header>
+        <!-- About Us Section -->
+        <section class="about-us section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Us</h2>
+                    <div class="bt-line"></div>
+                </div>
+                <div class="section-description section-flex">
+                    <div class="image">
+                        <img
+                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        >
+                    </div>
+                    <div class="text">
+                        <h2>Empowering Minds, Elevating Futures</h2>
+                        <p>At <b>EDURISE</b>, we believe that education is more than just a series of lessons—it is the cornerstone of personal and professional growth. Our platform was born out of a desire to bridge the gap between traditional learning and the rapidly evolving demands of the modern world. We provide a student-centric environment where curiosity is nurtured through high-quality, interactive resources and expert-led guidance. Whether you are looking to master a new skill, excel in your academics, or find the inspiration to reach your next milestone, EDURISE is dedicated to being your reliable partner on the journey to excellence. We are not just a repository of information; we are a community committed to making quality education accessible, engaging, and impactful for every learner.</p>
+                        <div class="stats-container">
+                            <div class="stat stat-1">
+                                <h3 class="no">123</h2>
+                                <p class="no-title">Available Subjects</p>
+                            </div>
+                            <div class="stat stat-2">
+                                <h3 class="no">1234</h2>
+                                <p class="no-title">Online Courses</p>
+                            </div>
+                            <div class="stat stat-3">
+                                <h3 class="no">123</h2>
+                                <p class="no-title">Skilled Instructors</p>
+                            </div>
+                            <div class="stat stat-4">
+                                <h3 class="no">1234</h2>
+                                <p class="no-title">Happy Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature Section -->
+        <section class="feature section ">
+            <div class="section-header">
+                <h2>Why Choose Us?</h2>
+                <div class="bt-line"></div>
+            </div>
+            <div class="bg-image">
+                <div class="container section-flex">
+                    <div class="feature_description">
+                        <h2>The Smart Way to Level Up Your Skills</h2>
+                        <p>Stop searching and start learning. We’ve built a community-driven platform that focuses on the skills that actually matter today. Whether you’re starting from scratch or leveling up, we provide the tools you need to succeed.</p>
+                        <ul class="benefit-container">
+                            <li class="benefit benefit-1">
+                                <i class="fa-solid fa-user-check"></i>
+                                <div class="benefit-desc">
+                                    <h3>Skilled Instructors</h3>
+                                    <p>Our mentors are passionate about your growth. Get direct access to experts who are actively working in the fields they teach.</p>
+                                </div>
+                            </li>
+                            <li class="benefit benefit-2">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div class="benefit-desc">
+                                    <h3>International Certificate</h3>
+                                    <p>Boost your LinkedIn profile and your resume with digital certificates that prove you’ve mastered the material.</p>
+                                </div>
+                            </li>
+                            <li class="benefit benefit-3">
+                                <i class="fa-solid fa-book-open-reader"></i>
+                                <div class="benefit-desc">
+                                    <h3>Online Classes</h3>
+                                    <p>Ditch the commute. Our interactive online classroom brings the campus experience to your home with live sessions and 24/7 access to materials.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="feature_image">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Courses -->
+        <section class="courses section">
+            <div class="section-header">
+                <h2>Courses Offered</h2>
+                <div class="bt-line"></div>
+            </div>
+            <div class="container">
+                <h2>Master Tomorrow’s Skills with Our Latest Curriculum</h2>
+                <div class="courses-offered"> 
+                    <div class="card card-1">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Web Design and Development Course</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Web Design and Development Course</h4>
+                                <p>Go beyond basic templates and learn to build robust, scalable web applications from the ground up. This course covers the full development lifecycle, starting with UI/UX fundamentals and moving into front-end technologies like HTML5, CSS3, and JavaScript frameworks. You will also dive into back-end architecture, database management, and API integration. By the end, you’ll have a professional portfolio featuring responsive, high-performance websites that meet modern industry standards for speed and security.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-2">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Data Science & Big Data Analytics</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Data Science & Big Data Analytics</h4>
+                                <p>Master the tools needed to navigate the massive influx of information in the modern economy. This course bridges the gap between raw data and strategic decision-making by teaching you Python, R, and Hadoop ecosystems. You will learn to handle the "5 V’s" of Big Data—Volume, Velocity, Variety, Veracity, and Value—while mastering advanced statistical techniques. From data cleaning to predictive forecasting, you’ll gain the ability to extract hidden trends that drive multi-million dollar business outcomes.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-3">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>UI/UX Design & User Research</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>UI/UX Design & User Research</h4>
+                                <p>Master the balance between aesthetics and functionality. This course takes you through the entire design thinking process, from conducting empathetic user interviews to building high-fidelity interactive prototypes in Figma. You will learn the psychological principles behind user behavior, accessibility standards, and usability testing methodologies. Whether you are designing a mobile app or a complex enterprise dashboard, you will emerge with the skills to create intuitive digital products that users love.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-4">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Business Storytelling </span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Business Storytelling</h4>
+                                <p>In a world of data overload, the ability to craft a narrative is a superpower. This course teaches you how to frame complex business ideas into persuasive stories that resonate with stakeholders, investors, and clients. You will learn to use "The Hero's Journey" in a corporate context, simplify technical data through visualization, and master the art of the pitch. By the end of the program, you will be able to command any room, turning dry presentations into memorable experiences that inspire action and close deals.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-5">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Human Resource Analytics & Strategy</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Human Resource Analytics & Strategy</h4>
+                                <p>Transform HR from a support function into a strategic powerhouse. This course teaches you how to apply data-driven methodologies to talent acquisition, employee engagement, and workforce planning. You will learn to track key performance indicators (KPIs), predict attrition, and measure the ROI of corporate training programs. By blending behavioral science with data analytics, you will be equipped to build high-performing teams and design organizational strategies that are backed by empirical evidence rather than intuition.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-6">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Time Management</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Time Management</h4>
+                                <p>Reclaim your most valuable resource with a scientific approach to productivity. This course goes beyond simple "to-do lists" to explore deep work techniques, energy management, and the psychology of procrastination. You will learn to apply frameworks like the Eisenhower Matrix and Time Blocking to align your daily tasks with your long-term career goals. By mastering workflow automation and boundary setting, you will learn how to achieve "flow states" that allow you to produce higher-quality work in significantly less time.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-7">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Digital Marketing</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Digital Marketing</h4>
+                                <p>Navigate the ever-evolving landscape of online consumer behavior. This comprehensive course covers the full spectrum of digital growth, including SEO, SEM, Content Marketing, and Social Media Strategy. You will learn to use analytics tools to track customer journeys, run A/B tests on ad copy, and optimize conversion funnels for maximum ROI. Whether you are an entrepreneur or a corporate marketer, you will gain the skills to build a cohesive brand presence that attracts, engages, and retains a global audience.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-8">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Genrative AI</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Generative AI</h4>
+                                <p>Step into the frontier of artificial intelligence by mastering the tools that are reshaping the creative and technical industries. This course explores the mechanics of Large Language Models (LLMs), image synthesis, and prompt engineering. You will learn how to integrate AI into existing workflows, automate complex coding tasks, and generate high-quality content at scale. We also address the ethical implications and governance of AI, ensuring you can deploy these powerful tools responsibly and effectively in any professional setting.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-9">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Machine Learning</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Machine Learning</h4>
+                                <p>Unlock the power of predictive modeling and pattern recognition. This program guides you through the mathematical foundations of ML, including supervised, unsupervised, and reinforcement learning. You will work with real-world datasets to build, train, and deploy models using industry-standard libraries like Scikit-Learn and TensorFlow. From developing recommendation engines to mastering neural networks, you will gain the technical expertise required to solve complex problems and drive automation across diverse sectors.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-10">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Robotics</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Robotics</h4>
+                                <p>Explore the intersection of mechanical engineering, electronics, and computer science. This course provides hands-on experience in designing and programming autonomous systems that can perceive and interact with their environment. You will study kinematics, sensor fusion, and Robot Operating Systems (ROS) to build machines capable of performing complex tasks. Whether your interest lies in industrial automation or consumer robotics, this program gives you the tools to bring static hardware to life through intelligent software.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-11">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>VLSI (Very Large Scale Integration) Design</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>VLSI (Very Large Scale Integration) Design</h4>
+                                <p>Delve into the heart of the semiconductor industry by learning to design millions of transistors onto a single silicon chip. This course covers the entire VLSI design flow, from logic synthesis and physical design to verification and testing using industry-grade CAD tools. You will explore CMOS technology, low-power design techniques, and the challenges of nanometer-scale integration. This is an essential track for anyone looking to build the next generation of processors for AI, mobile devices, and high-performance computing.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-12">
+                        <div class="card_face card_front">
+                            <div class="rating-section">
+                                <div class="course-name">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Power Electronics for EVs</span>
+                                </div>
+                                <div class="rating">
+                                    <div class="user">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>John Doe</span>
+                                    </div>
+                                    <div class="number">
+                                        <span>4.5</span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="number">(250)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_face card_back">
+                            <div class="desc">
+                                <h4>Power Electronics for EVs</h4>
+                                <p>As the world shifts toward sustainable mobility, master the technology that makes Electric Vehicles possible. This course focuses on the conversion and control of electrical power within EV systems, including DC-DC converters, motor drives, and advanced battery management systems (BMS). You will learn how to optimize energy efficiency, thermal management, and charging speeds. Gain the specialized engineering skills needed to contribute to the green energy revolution and the future of the automotive industry.</p>
+                            </div>
+                            <div class="card_nav">
+                                <a class="btn-secondary">
+                                    <span>Course Details</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Offer Section -->
+        <section class="offer section">
+            <div class="section-header">
+                <h2>Don’t just watch the future happen—build it.</h2>
+                <div class="bt-line"></div>
+            </div>
+            <div class="bg-image offer-flex">
+                <div class="container-sm">
+                    <h2>30% Off For New Students</h2>
+                    <form class="form-grid">
+                        <div class="form-item"> 
+                            <input type="text" id="name" name="name" placeholder="Your Name" >
+                        </div>
+                        <div class="form-item">
+                            <input type="email" id="email" name="enail" placeholder="Your Email" >
+                        </div>
+                        <div class="form-item">
+                            <select name="course" id="course-select">
+                                <option value="">Select A Course</option>
+                                <option value="Web Design and Development Course">Web Design and Development Course</option>
+                                <option value="Data Science & Big Data Analytics">Data Science & Big Data Analytics</option>
+                                <option value="UI/UX Design & User Research">UI/UX Design & User Research</option>
+                                <option value="Business Storytelling">Business Storytelling </option>
+                                <option value="Human Resource Analytics & Strategy">Human Resource Analytics & Strategy</option>
+                                <option value="Time Management">Time Management</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Genrative AI">Genrative AI</option>
+                                <option value="Machine Learning">Machine Learning</option>
+                                <option value="Robotics">Robotics</option>
+                                <option value="VLSI (Very Large Scale Integration) Design">VLSI (Very Large Scale Integration) Design</option>
+                                <option value="Power Electronics for EVs">Power Electronics for EVs</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <button class="btn-form" type="submit">Sign-Up Now</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Our Instructors -->
+        <section class="instructors section">
+            <div class="section-header">
+                <h2>Meet Our Instructors</h2>
+                <div class="bt-line"></div>
+            </div>
+            <div class="container instructor-flex">
+                
+                <figure class="instructor_card">
+                    <img class="instructor_image" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVyc29ufGVufDB8fDB8fHww"/>
+                    <figcaption class="instructor_description">
+                        <h3>John Doe</h3>
+                        <p>Web Developer</p>
+                        <div class="social-media">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="instructor_card">
+                    <img class="instructor_image" src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"/>
+                    <figcaption class="instructor_description">
+                        <h3>Sakshi Naik</h3>
+                        <p>Web Developer</p>
+                        <div class="social-media">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="instructor_card">
+                    <img class="instructor_image" src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"/>
+                    <figcaption class="instructor_description">
+                        <h3>Ritesh Deshmukh</h3>
+                        <p>Web Developer</p>
+                        <div class="social-media">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <!-- Testimonial Section -->
+        <section class="testimonials section">
+            <div class="section-header">
+                <h2>Testimonial</h2>
+                <div class="bt-line"></div>
+            </div>
+            <div class="bg-image">
+                <div class="container testimonial-flex">
+                    <div class="testimonial_description">
+                        <h2>Student Success Stories</h2>
+                        <p>Our greatest achievement isn't our curriculum—it’s the success of our students. From launching new careers to mastering complex skills, explore the real-world impact our programs have had on our global community of learners. Beyond the classroom, we take pride in the lasting connections forged and the confidence ignited within every individual. These stories are a testament to the dedication of our mentors and the limitless potential of those who choose to grow with us. Your journey doesn't just end with a certificate; it begins with the community you build here.</p>
+                    </div>
+                    <div class="testimonial_container">
+                        <div class="btn_grp">
+                            <div class="nav_btn nav_btn_left">
+                                <label for="navigate-left">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </label>
+                                <input id="navigate-left" type="radio" name="navigate" value="left">
+                            </div>
+                            <div class="nav_btn nav_btn_right">
+                                <label for="navigate-right">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </label>
+                                <input id="navigate-right" type="radio" name="navigate" value="right">
+                            </div>
+                        </div>
+                        <div class="testimonial testimonial-1">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo distinctio nihil nulla ex dolorem ab consectetur repudiandae, voluptatum fugiat excepturi enim aspernatur unde consequuntur dolores, libero aut reiciendis modi doloribus eveniet amet eum suscipit. Consectetur suscipit repellat obcaecati nihil, pariatur deleniti quibusdam blanditiis magni perspiciatis sunt debitis sequi in fuga?</p>
+                            <div class="student">
+                                <img src="https://images.unsplash.com/photo-1613852348439-82fa38ec01da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVlbmFnZSUyMGJveXxlbnwwfHwwfHx8MA%3D%3D">
+                                <div class="student_desc">
+                                    <h3>Arav Deshmukh</h3>
+                                    <p>Web Design and Development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial testimonial-2">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo distinctio nihil nulla ex dolorem ab consectetur repudiandae, voluptatum fugiat excepturi enim aspernatur unde consequuntur dolores, libero aut reiciendis modi doloribus eveniet amet eum suscipit. Consectetur suscipit repellat obcaecati nihil, pariatur deleniti quibusdam blanditiis magni perspiciatis sunt debitis sequi in fuga?</p>
+                            <div class="student">
+                                <img src="https://images.unsplash.com/photo-1594456313204-96b8151f1b88?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlZW5hZ2UlMjBnaXJsfGVufDB8fDB8fHww">
+                                <div class="student_desc">
+                                    <h3>Kiara Jain</h3>
+                                    <p>Robotics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter Section -->
+        <section class="newsletter section">
+            <div class="section-header">
+                <h2>Subscribe to our newsletter</h2>
+                <div class="bt-line"></div>
+            </div>
+            <div class="container">
+                <p>Stay updated with the latest news, offers, and insights from our platform. Join our newsletter community today!</p>
+                <form class="form">
+                    <div class="form-grp">
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-grp">
+                        <a href="#" class="btn-primary">Submit</a>
+                    </div>
+                </form>
+            </div>
+            
+        </section>
+        <!-- Social Media Section -->
+        <section class="social section">
+            <div class="container">
+                <p>
+                    Follow us on social media for updates and news about our courses.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest fa-2x"></i></a>            </div>
+            </div>
+        </section>
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container footer-flex">
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <p>&copy; 2024-2025 Edurise. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
