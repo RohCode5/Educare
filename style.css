@@ -1435,6 +1435,9 @@ iframe{
 }
 /* Mobile */
 @media (max-width:576px){
+    .navbar{
+        padding:.5rem;
+    }
     .hero{
         text-align: center;
         padding:10.5rem 0rem;
@@ -1536,3 +1539,4 @@ iframe{
         background-size: 100% 100%;
     }
 }
+
